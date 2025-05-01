@@ -68,7 +68,7 @@ This Crypto Wallet application includes the following features:
 ### How to Run the Crypto Wallet
 1. Clone the repository:
     ```bash
-    git clone https://github.com/jatin192/crypto-wallet.git
+    git clone https://github.com/jatin192/crypto_wallet.git
     ```
 2. Install Dependencies: Navigate to the project directory and install the necessary dependencies:
     ```bash
@@ -76,8 +76,13 @@ This Crypto Wallet application includes the following features:
     npm install --y
     ```
 3. Configure MongoDB:
-      - Open the config.env files.
-      - Replace the placeholders for MONGODB_URI and MONGODB_DB_NAME with your actual credentials.
+      - Open the config.env and server.js files.
+      - Replace the placeholders for MongoDB username and password with your actual credentials.
+      - For Example
+    ```bash
+    DATABASE = mongodb+srv://singhaljatin192:PsG**********6cv@cluster-crypto-wallet.npayo.mongodb.net/
+    DATABASE_PASSWORD = PsG**********6cv
+    ```
 
 4. Start the Development Server: Run the following command to launch the app locally:
     ```bash
